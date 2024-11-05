@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-one {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    max-width: auto; 
+  height: 100px;
+}
+
+.img-1 {
+    max-width: auto;
+    height: 300px;
+}
+
+
+.container-two {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.container-three {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-four {
+    display: flex;
+    justify-content: space-evenly;
+}
