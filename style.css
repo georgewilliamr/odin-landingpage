@@ -5,26 +5,41 @@ body {
 
 .flexbox-container {
     display: flex;
-    flex-direction: column;
-     
+    flex-direction: column;  
 }
 
 .container-one {
-    display: flex;
     padding: 3rem;
-    background-color: #1f2937;
+    background-color: #1D1842;
 
 }
 
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style: none;
+    padding: 0;
+    margin-top: -200px;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
 .logo {
-    max-width: auto; 
-    height: 100px;
-    align-items: flex-start;
+    max-width: 200px; 
+    height: auto;
+
 }
 
 .img-1 {
     max-width: auto;
     height: 300px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .container-two {
