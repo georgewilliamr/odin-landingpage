@@ -1,17 +1,25 @@
 body {
-    margin: 0;
+    margin: 0; 
+    padding: 0;
+}
+
+.flexbox-container {
     display: flex;
     flex-direction: column;
+     
 }
 
 .container-one {
     display: flex;
-    justify-content: space-evenly;
+    padding: 3rem;
+    background-color: #1f2937;
+
 }
 
 .logo {
     max-width: auto; 
-  height: 100px;
+    height: 100px;
+    align-items: flex-start;
 }
 
 .img-1 {
@@ -19,20 +27,28 @@ body {
     height: 300px;
 }
 
-
 .container-two {
-    display: flex;
-    justify-content: space-evenly;
+    display: flex; 
+    padding: 3rem;
+}
 
-
+img {
+    max-width: 200px;
+    height: 200px;
 }
 
 .container-three {
-    display: flex;
-    justify-content: space-evenly;
+    background-color: #E5E7EB;
+    padding: 3rem;
 }
 
 .container-four {
-    display: flex;
-    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 4em;
+    text-align: center;
 }
