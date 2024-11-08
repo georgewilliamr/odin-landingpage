@@ -2,7 +2,6 @@ body {
     height: 100vh;
     margin: 0 auto;
     padding: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
 }
 
@@ -113,21 +112,34 @@ text-align: center;
 
 .container2 {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    gap: 50px;
+    justify-content: center;
 }
 
 .image-placeholder2 {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
+    border-radius: 15px;
+    border: 2px solid #3882F6;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
 
 }
 
+.container3 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.text {
+    font-size: 10px;
+    display: flex;
 
 
+}
 
 
 
