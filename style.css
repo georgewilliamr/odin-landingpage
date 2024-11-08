@@ -207,7 +207,11 @@ text-align: center;
 
 
 #footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #1F2937;
     height: 10vh;
+    color: white;
 }
 
