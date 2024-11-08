@@ -81,13 +81,11 @@ h1 {
     padding: 10px;
     border-radius: 8px;
     width: 100px;
-
 }
 
 .header-right {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .image-placeholder {
@@ -101,19 +99,24 @@ h1 {
     border: 2px dashed #ccc;
 }
 
-.main {
-    margin: 60px;
-}
-
 h2 {
 text-align: center;
-
 }
 
 .container2 {
+    height: 40vh;
+}
+
+.images {
     display: flex;
-    gap: 50px;
     justify-content: center;
+    padding-top: 50px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .image-placeholder2 {
@@ -121,29 +124,90 @@ text-align: center;
     border: 2px solid #3882F6;
     padding: 10px;
     width: 100px;
-    height: 100px;
-
-}
-
-.container3 {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+    height: 100px;  
 }
 
 .text {
+    padding: 0 30px;
     font-size: 10px;
-    display: flex;
-
-
+    padding-top: 10px;
+    width: 100px;
+    text-align: center;
 }
 
+.container3 {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.thorq {
+    width: 800px;
+}
+
+.thorq i {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container4 {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-box {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 900px;
+}
+
+.cta, .line {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.text2{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text2, .text3 {
+        padding-left: 100px;
+}
+
+.line {
+    margin-top: -20px;
+}
+
+#button2 {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    margin-top: -20px;
+}
 
 
 #footer {
     background-color: #1F2937;
+    height: 10vh;
 }
 
